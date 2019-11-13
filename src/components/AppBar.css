@@ -1,0 +1,21 @@
+.app-bar {
+    -webkit-app-region: drag;
+    height: 24px; 
+    padding: none;
+    margin: 0px; 
+    background-color: rgb(48, 48, 48);
+}
+
+.close-button {
+    -webkit-app-region: no-drag;
+    position: fixed;
+    top: 0px;
+    right: 6px;
+}
+
+.title {
+    -webkit-app-region: no-drag;
+    position: fixed;
+    top: 0px;
+    color: white;
+}
